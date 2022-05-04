@@ -1,0 +1,23 @@
+﻿@page "{printerId:int?}"
+@model _3DGence.Pages.Printers.EditModel
+@{
+}
+<h2>Editing @Model.printer.Name </h2>
+<form method="post">
+    <input type="hidden" asp-for="printer.Id" />
+    <div class="form-group">
+        <label asp-for="printer.Name"></label>
+        <input asp-for="printer.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="printer.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="printer.Model"></label>
+        <select asp-for="printer.Model" class="form-control"
+            asp-items="Model.Models"
+        >
+
+        </select>
+         <span class="text-danger" asp-validation-for="printer.Model"></span>
+    </div>
+    <button type="submit" class="btn btn-secondary">Save</button>
+</form>

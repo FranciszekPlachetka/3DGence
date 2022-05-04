@@ -1,0 +1,19 @@
+﻿@page "{printerId:int}"
+
+@model _3DGence.Pages.Printers.DetailModel
+@{
+}
+@if(Model.Message != null)
+{
+    <div class="alert alert-info">@Model.Message</div>
+}
+<h2>@Model.printer.Name</h2>
+<div>
+    ID:@Model.printer.Id
+</div>
+<div>
+    Model:@Model.printer.Model
+</div>
+
+
+<a asp-page="./list" class="btn btn-secondary btn-sm ">All Printers</a>

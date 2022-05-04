@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6jN3CuRI2t5PLlwAjJhCYhLHPFqAFkldGXZCm2pVoOZVvuv2OA4xgQ54iJCz/5i1zm0bQnWMfR/3mFfUABambw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fplachetka\\OneDrive - FTF Columbus\\Edukacja\\3DGence\\3DGence\\3DGence.Core\\3DGence.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fplachetka\\.nuget\\packages\\microsoft.aspnetcore.razor.design\\2.2.0\\microsoft.aspnetcore.razor.design.2.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

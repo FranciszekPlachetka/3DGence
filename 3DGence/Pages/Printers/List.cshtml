@@ -1,0 +1,49 @@
+﻿@page
+@model _3DGence.Pages.Printers.ListModel
+@{
+}
+<h1> Printers </h1>
+<form method="get">
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Podaj ID" asp-for="SearchTerm" />
+        <button class="btn btn-outline-secondary ">
+            <span class="fas fa-search text-grey " aria-hidden="true"></span>
+        </button>
+
+    </div>
+
+
+</form>
+<table class="table">
+    @foreach (var printer in Model.printers)
+    {
+        <tr>
+           
+            <td>@printer.Name</td>
+            <td>@printer.Model</td>
+           
+            <td>
+                <a class="btn btn-lg "
+                asp-page="./Edit" asp-route-printerId="@printer.Id"
+                >
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                </a>
+         
+            
+                <a class="btn btn-lg "
+                asp-page="./Detail" asp-route-printerId="@printer.Id"
+                >
+                    <i class="fa fa-search-plus " aria-hidden="true"></i>
+                </a>
+                 <a class="btn btn-lg "
+                asp-page="./Delete" asp-route-printerId="@printer.Id"
+                >
+                    <i class="fa fa-trash " aria-hidden="true"></i>
+                </a>
+            </td>
+        </tr>
+    }
+
+</table>
+<a asp-page=".\Edit" class="btn btn-secondary btn-sm ">Add new printer</a>
