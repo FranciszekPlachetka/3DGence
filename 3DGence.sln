@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DGence", "3DGence\3DGence.csproj", "{A9E07E03-0204-43B4-A01A-5E8286B01E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3DGence", "3DGence\3DGence.csproj", "{A9E07E03-0204-43B4-A01A-5E8286B01E21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DGence.Core", "3DGence.Core\3DGence.Core.csproj", "{A7F21D12-3E91-414A-AA5A-14DF7B05FEDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3DGence.Core", "3DGence.Core\3DGence.Core.csproj", "{A7F21D12-3E91-414A-AA5A-14DF7B05FEDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DGence.data", "3DGence.data\3DGence.data.csproj", "{22F1D0EA-830A-4D58-AD50-8E03EAFD0B45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3DGence.data", "3DGence.data\3DGence.data.csproj", "{22F1D0EA-830A-4D58-AD50-8E03EAFD0B45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

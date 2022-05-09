@@ -66,5 +66,12 @@ namespace _3DGence.data
             }
             return printer;
         }
+
+        
+
+        bool I3DGenceData.Contains(string name)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

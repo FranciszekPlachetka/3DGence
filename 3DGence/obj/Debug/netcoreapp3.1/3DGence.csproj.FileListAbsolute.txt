@@ -90,3 +90,4 @@ C:\Users\fplachetka\OneDrive - FTF Columbus\Edukacja\3DGence\3DGence\3DGence\bin
 C:\Users\fplachetka\OneDrive - FTF Columbus\Edukacja\3DGence\3DGence\3DGence\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\fplachetka\OneDrive - FTF Columbus\Edukacja\3DGence\3DGence\3DGence\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\fplachetka\OneDrive - FTF Columbus\Edukacja\3DGence\3DGence\3DGence\obj\Debug\netcoreapp3.1\Razor\Pages\Printers\Delete.cshtml.g.cs
+C:\Users\fplachetka\OneDrive - FTF Columbus\Edukacja\3DGence\3DGence\3DGence\obj\Debug\netcoreapp3.1\Razor\Pages\Printers\AlreadyExists.cshtml.g.cs

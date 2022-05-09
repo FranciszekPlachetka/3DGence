@@ -1,0 +1,12 @@
+﻿@page
+@model _3DGence.Pages.Printers.AlreadyExistsModel
+@{
+}
+        
+        <div class="alert alert-danger">
+            A printer with this name already exist 
+        </div>
+        <form>
+            <a asp-page=".\Edit" class="btn btn-secondary ">Add new printer</a>
+            <a asp-page ="List" class = "btn btn-secondary">All printers</a>
+        </form>

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a9e07e03-0204-43b4-a01a-5e8286b01e21": {
+      "ProjectGuid": "a9e07e03-0204-43b4-a01a-5e8286b01e21",
+      "DisplayName": "3DGence",
+      "ColorIndex": 0
+    },
+    "a7f21d12-3e91-414a-aa5a-14df7b05feda": {
+      "ProjectGuid": "a7f21d12-3e91-414a-aa5a-14df7b05feda",
+      "DisplayName": "3DGence.Core",
+      "ColorIndex": 1
+    },
+    "22f1d0ea-830a-4d58-ad50-8e03eafd0b45": {
+      "ProjectGuid": "22f1d0ea-830a-4d58-ad50-8e03eafd0b45",
+      "DisplayName": "3DGence.data",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Różne pliki",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

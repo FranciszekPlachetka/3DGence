@@ -11,7 +11,9 @@ namespace _3DGence.Pages.Printers
     public class EditModel : PageModel
     {
         private readonly I3DGenceData _3DGenceData;
-
+        [TempData]
+        public string Message2 { get; set; }
+        
         [BindProperty]
         public Printer printer { get; set; }
         public IEnumerable<SelectListItem>  Models { get; set; }
@@ -55,10 +57,23 @@ namespace _3DGence.Pages.Printers
 
             if (printer.Id > 0)
             {
+
                 _3DGenceData.Update(printer);
             }else
             {
-                _3DGenceData.Add(printer);
+                // IEnumerable<Printer> printers= _3DGenceData.GetPrinterByName(printer.Name);
+
+
+                if(!_3DGenceData.Contains(printer.Name))
+                {
+                    _3DGenceData.Add(printer);
+                }
+                else
+                {
+                   
+                    return RedirectToPage("./AlreadyExists");
+                }
+               
             }
             _3DGenceData.Commit();
             TempData["Message"] = "Printer saved!";

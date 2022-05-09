@@ -25,6 +25,24 @@ namespace _3DGence.data
            return db.SaveChanges();
         }
 
+        public bool Contains(string name)
+        {
+           
+            var query = from p in db.printers
+                        where p.Name.StartsWith(name) 
+                        orderby p.Name
+                        select p;
+            if (query.Count() > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+             
+        }
+
         public Printer Delete(int id)
         {
             var printer = GetById(id);

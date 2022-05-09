@@ -11,6 +11,7 @@ namespace _3DGence.data
         Printer Update(Printer updatedPrinter);
         Printer Add(Printer newPrinter);
         Printer Delete (int id);    
+        bool Contains(string name);  
         int Commit();
 
     }
